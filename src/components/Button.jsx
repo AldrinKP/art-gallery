@@ -1,7 +1,7 @@
-const Button = ({ type }) => {
+const Button = ({ type, onClick }) => {
 	if (type === 'location') {
 		return (
-			<button className="group flex w-[260px] h-[72px]">
+			<button className="group flex w-[260px] h-[72px]" onClick={onClick}>
 				<div className="h-full w-[204px] bg-almost-black group-hover:bg-gold flex justify-center items-center">
 					<span className="font-heading font-extrabold text-white tracking-button">
 						OUR LOCATION
@@ -20,7 +20,7 @@ const Button = ({ type }) => {
 		);
 	}
 	return (
-		<button className="group flex w-[260px] h-[72px]">
+		<button className="group flex w-[260px] h-[72px]" onClick={onClick}>
 			<div className="w-[56px] h-full bg-gold group-hover:bg-almost-black flex justify-center items-center">
 				<svg width="10" height="24" xmlns="http://www.w3.org/2000/svg">
 					<path stroke="#FFF" fill="none" d="M9 24 1 12 9 0" />
