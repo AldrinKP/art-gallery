@@ -1,6 +1,8 @@
 import heroImage from '../../assets/desktop/image-hero.jpg';
 import Button from '../Button';
 
+//ToDo: Fix mix-blend text - 2nd half color should be pure black
+
 const IntroSection = () => {
 	return (
 		<div className="flex relative h-[800px]">
