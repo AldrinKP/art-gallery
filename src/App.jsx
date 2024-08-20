@@ -7,7 +7,7 @@ function App() {
 				Gallery Website
 			</h1>
 			<p className="font-body text-l">Sample text to test font</p>
-			<Button type="location" />
+			<Button type="home" />
 		</>
 	);
 }
