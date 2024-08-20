@@ -14,6 +14,10 @@ export default {
 				'size-heading-m': '60px',
 				'size-heading-l': '70px',
 				'size-heading-xl': '96px',
+				'size-button': '20px',
+			},
+			letterSpacing: {
+				button: '3.64px',
 			},
 			lineHeight: {
 				'line-body-s': '28px',
