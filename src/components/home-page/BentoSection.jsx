@@ -1,5 +1,6 @@
 import gridImage1 from '../../assets/desktop/image-grid-1@2x.jpg';
 import gridImage2 from '../../assets/desktop/image-grid-2@2x.jpg';
+import gridImage3 from '../../assets/desktop/image-grid-3@2x.jpg';
 
 const BentoSection = () => {
 	return (
@@ -27,12 +28,20 @@ const BentoSection = () => {
 					/>
 				</div>
 
-				<div className="col-span-2 row-span-1 bg-tan-200 flex items-center justify-center">
-					<p>Pork</p>
+				<div className="col-span-2 row-span-1">
+					<img src={gridImage3} alt="People looking at art" />
 				</div>
 
-				<div className="col-span-2 row-span-1 bg-green-200 flex items-center justify-center">
-					<p>Edamame</p>
+				<div className="col-span-2 row-span-1 flex items-center justify-center bg-almost-black">
+					<div className="flex flex-col w-[350px]">
+						<h1 className="font-heading font-black text-size-heading-m leading-line-heading-m text-white mb-8">
+							COME & BE INSPIRED
+						</h1>
+						<p className="font-body text-size-body-m leading-line-body-m text-white">
+							We’re excited to welcome you to our gallery and see
+							how our collections influence you.
+						</p>
+					</div>
 				</div>
 			</div>
 		</div>
