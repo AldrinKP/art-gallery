@@ -23,7 +23,7 @@ export default {
 				'line-body-s': '28px',
 				'line-body-m': '32px',
 				'line-heading-s': '36px',
-				'line-heading-m': '50px',
+				'line-heading-m': '60px',
 				'line-heading-l': '70px',
 				'line-heading-xl': '88px',
 			},
