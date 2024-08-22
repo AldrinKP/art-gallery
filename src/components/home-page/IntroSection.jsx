@@ -5,7 +5,7 @@ import Button from '../Button';
 
 const IntroSection = () => {
 	return (
-		<div className="flex relative h-[800px]">
+		<div className="flex relative h-[800px] w-[1275px]">
 			<div className="h-full w-[450px] bg-almost-black"></div>
 			<img src={heroImage} className="w-[540px] h-full" />
 			<div className="absolute w-[514px] left-[165px] top-[189px]">
