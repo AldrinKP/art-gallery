@@ -38,8 +38,8 @@ const BentoSection = () => {
 							COME & BE INSPIRED
 						</h1>
 						<p className="font-body text-size-body-m leading-line-body-m text-white">
-							We’re excited to welcome you to our gallery and see
-							how our collections influence you.
+							We&apos;re excited to welcome you to our gallery and
+							see how our collections influence you.
 						</p>
 					</div>
 				</div>
