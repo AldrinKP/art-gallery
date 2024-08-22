@@ -2,11 +2,18 @@ const BentoSection = () => {
 	return (
 		<div className="flex h-full w-[1110px] mx-auto my-[180px] items-center justify-center">
 			<div className="grid h-full w-full gap-4 bg-transparent p-2 grid-cols-5 grid-rows-3">
-				<div className="col-span-2 row-span-1 bg-pink-200 flex items-center justify-center">
-					<p>Salmon</p>
+				<div className="col-span-2 row-span-1 flex flex-col items-center justify-start mr-32">
+					<h1 className="font-heading font-black text-size-heading-m leading-line-heading-m text-almost-black mb-8">
+						YOUR DAY AT THE GALLERY
+					</h1>
+					<p className="font-body text-size-body-m leading-line-body-m text-dark-grey">
+						Wander through our distinct collections and find new
+						insights about our artists. Dive into the details of
+						their creative process.
+					</p>
 				</div>
 
-				<div className="col-span-3 row-span-1 bg-lime-200 flex items-center justify-center">
+				<div className="col-span-3 row-span-1">
 					<p>Broccoli</p>
 				</div>
 
