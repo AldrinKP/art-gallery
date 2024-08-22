@@ -16,22 +16,22 @@ const BentoSection = () => {
 						their creative process.
 					</p>
 				</div>
-
 				<div className="col-span-3 row-span-1">
 					<img src={gridImage1} alt="art exhibit 1" />
 				</div>
-
-				<div className="col-span-3 row-span-2">
+				<div className="col-span-3 row-span-2 flex justify-center">
 					<img
 						src={gridImage2}
 						alt="bench in front of an art piece"
 					/>
 				</div>
-
-				<div className="col-span-2 row-span-1">
-					<img src={gridImage3} alt="People looking at art" />
+				<div className="col-span-2 row-span-1 flex justify-center">
+					<img
+						src={gridImage3}
+						alt="People looking at art"
+						className="object-cover"
+					/>
 				</div>
-
 				<div className="col-span-2 row-span-1 flex items-center justify-center bg-almost-black">
 					<div className="flex flex-col w-[350px]">
 						<h1 className="font-heading font-black text-size-heading-m leading-line-heading-m text-white mb-8">
