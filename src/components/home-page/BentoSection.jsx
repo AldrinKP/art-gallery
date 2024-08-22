@@ -1,4 +1,5 @@
 import gridImage1 from '../../assets/desktop/image-grid-1@2x.jpg';
+import gridImage2 from '../../assets/desktop/image-grid-2@2x.jpg';
 
 const BentoSection = () => {
 	return (
@@ -19,8 +20,11 @@ const BentoSection = () => {
 					<img src={gridImage1} alt="art exhibit 1" />
 				</div>
 
-				<div className="col-span-3 row-span-2 bg-yellow-200 flex items-center justify-center">
-					<p>Tamago</p>
+				<div className="col-span-3 row-span-2">
+					<img
+						src={gridImage2}
+						alt="bench in front of an art piece"
+					/>
 				</div>
 
 				<div className="col-span-2 row-span-1 bg-tan-200 flex items-center justify-center">
