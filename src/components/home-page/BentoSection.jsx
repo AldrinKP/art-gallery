@@ -4,7 +4,7 @@ import gridImage3 from '../../assets/desktop/image-grid-3@2x.jpg';
 
 const BentoSection = () => {
 	return (
-		<div className="flex h-full w-[1110px] mx-auto my-[180px] items-center justify-center">
+		<section className="flex h-full w-[1110px] mx-auto my-[180px] items-center justify-center">
 			<div className="grid h-full w-full gap-8 bg-transparent grid-cols-5 grid-rows-3">
 				<div className="col-span-2 row-span-3 flex flex-col justify-center mr-32 w-[350px]">
 					<h1 className="font-heading font-black text-size-heading-m leading-line-heading-m text-almost-black mb-8">
@@ -44,7 +44,7 @@ const BentoSection = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 
