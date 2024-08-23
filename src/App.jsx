@@ -4,11 +4,11 @@ import IntroSection from './components/home-page/IntroSection';
 
 function App() {
 	return (
-		<div className="flex flex-col items-center">
+		<main className="flex flex-col place-content-center">
 			<IntroSection />
 			<BentoSection />
 			<Footer />
-		</div>
+		</main>
 	);
 }
 
