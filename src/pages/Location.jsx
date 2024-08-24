@@ -1,5 +1,7 @@
+import Button from '../components/Button';
+
 const Location = () => {
-	return <div>Location</div>;
+	return <Button type="home" />;
 };
 
 export default Location;
