@@ -4,13 +4,10 @@ import Location from './pages/Location';
 
 function App() {
 	return (
-		<BrowserRouter>
-			<Routes>
-				<Route path="/" element={<Home />}>
-					<Route path="location" element={<Location />} />
-				</Route>
-			</Routes>
-		</BrowserRouter>
+		<Routes>
+			<Route path="/" element={<Home />}></Route>
+			<Route path="/location" element={<Location />} />
+		</Routes>
 	);
 }
 
