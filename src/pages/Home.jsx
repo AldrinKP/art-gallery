@@ -1,6 +1,6 @@
-import Footer from './components/Footer';
-import BentoSection from './components/home-page/BentoSection';
-import IntroSection from './components/home-page/IntroSection';
+import Footer from '../components/Footer';
+import BentoSection from '../components/home-page/BentoSection';
+import IntroSection from '../components/home-page/IntroSection';
 
 const Home = () => {
 	return (
