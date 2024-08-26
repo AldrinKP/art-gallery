@@ -3,9 +3,9 @@ import Map from '../components/Map';
 
 const Location = () => {
 	return (
-		<div>
+		<div className="relative z-1">
 			<Map />
-			<Button type="home" />
+			<Button type="home" className="absolute top-0 left-32" />
 		</div>
 	);
 };
