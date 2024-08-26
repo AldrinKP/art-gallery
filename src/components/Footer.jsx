@@ -1,6 +1,8 @@
-const Footer = () => {
+const Footer = ({ bgColor }) => {
 	return (
-		<div className="w-full h-[244px] bg-almost-black flex items-center justify-center">
+		<div
+			className={`w-full h-[244px] ${bgColor} flex items-center justify-center`}
+		>
 			<div className="flex">
 				<svg
 					width="111"
