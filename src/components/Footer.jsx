@@ -21,7 +21,7 @@ const Footer = ({ bgColor }) => {
 					Street, Newport, USA.
 				</p>
 				<div className="flex gap-2">
-					<a href="" className="group curser-pointer">
+					<a href="" className="group cursor-pointer">
 						<svg
 							width="20"
 							height="20"
@@ -34,7 +34,7 @@ const Footer = ({ bgColor }) => {
 							/>
 						</svg>
 					</a>
-					<a href="" className="group curser-pointer">
+					<a href="" className="group cursor-pointer">
 						<svg
 							width="20"
 							height="20"
@@ -47,7 +47,7 @@ const Footer = ({ bgColor }) => {
 							/>
 						</svg>
 					</a>
-					<a href="" className="group curser-pointer">
+					<a href="" className="group cursor-pointer">
 						<svg
 							width="20"
 							height="17"
