@@ -9,7 +9,7 @@ const Home = () => {
 				<IntroSection />
 				<BentoSection />
 			</main>
-			<Footer />
+			<Footer bgColor="bg-almost-black" />
 		</>
 	);
 };
