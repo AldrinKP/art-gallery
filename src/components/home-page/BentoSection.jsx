@@ -5,7 +5,7 @@ import gridImage3 from '../../assets/desktop/image-grid-3@2x.jpg';
 const BentoSection = () => {
 	return (
 		<section className="flex h-full max-w-[1110px] mx-auto my-[180px] items-center justify-center lg:p-0 px-8">
-			<div className="grid h-full w-full gap-8 bg-transparent grid-cols-5 grid-rows-3">
+			<div className="grid h-full w-full lg:gap-8 gap-[11px] bg-transparent grid-cols-5 grid-rows-3">
 				<div className="col-span-2 row-span-3 flex flex-col justify-center lg:mr-32 mr-16 lg:w-[350px] min-w-[225px]">
 					<h1 className="font-heading font-black lg:text-size-heading-m text-[50px] lg:leading-line-heading-m leading-[45px] text-almost-black lg:mb-8 mb-6">
 						YOUR DAY AT THE GALLERY
@@ -17,7 +17,11 @@ const BentoSection = () => {
 					</p>
 				</div>
 				<div className="col-span-3 row-span-3">
-					<img src={gridImage1} alt="art exhibit 1" />
+					<img
+						src={gridImage1}
+						alt="art exhibit 1"
+						className="w-full h-full object-cover"
+					/>
 				</div>
 				<div className="col-span-3 row-span-5 flex justify-center">
 					<img
@@ -31,7 +35,7 @@ const BentoSection = () => {
 						alt="People looking at art"
 						className="object-cover"
 					/>
-					<div className="flex items-center justify-center flex-auto bg-almost-black mt-8">
+					<div className="flex items-center justify-center flex-auto bg-almost-black lg:mt-8 mt-[11px]">
 						<div className="flex flex-col w-[350px]">
 							<h1 className="font-heading font-black text-size-heading-m leading-line-heading-m text-white mb-8">
 								COME & BE INSPIRED
