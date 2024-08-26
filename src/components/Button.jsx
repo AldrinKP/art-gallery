@@ -4,9 +4,10 @@ const Button = ({ type, className }) => {
 	if (type === 'location') {
 		return (
 			<Link
-				className={`group flex w-[260px] h-[72px]" to="/location ${
+				className={`group flex w-[260px] h-[72px] ${
 					className ? className : ''
 				}`}
+				to="/location"
 			>
 				<div className="h-full w-[204px] bg-almost-black group-hover:bg-gold flex justify-center items-center">
 					<span className="font-heading font-extrabold text-white tracking-button">
