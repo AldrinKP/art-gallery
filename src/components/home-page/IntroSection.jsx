@@ -5,11 +5,14 @@ import Button from '../Button';
 
 const IntroSection = () => {
 	return (
-		<section className="flex relative h-[800px]">
-			<div className="z-0 h-full w-[450px] bg-almost-black"></div>
-			<img src={heroImage} className="z-0 w-[540px] h-full" />
-			<div className="flex gap-80 absolute left-[165px] w-full top-[189px]">
-				<h1 className="font-heading font-black text-size-heading-xl leading-line-heading-xl text-white mix-blend-difference">
+		<section className="flex relative lg:h-[800px]">
+			<div className="lg:block hidden z-0 h-full w-[450px] bg-almost-black"></div>
+			<div className="z-0 lg:w-[540px] w-[437px] lg:h-full h-[700px]">
+				<img src={heroImage} className="w-full h-full object-cover" />
+			</div>
+
+			<div className="flex lg:flex-row flex-col lg:gap-80 absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px] w-full">
+				<h1 className="font-heading font-black text-size-heading-xl leading-line-heading-xl text-black lg:text-white lg:mix-blend-difference">
 					MODERN <br />
 					ART GALLERY
 				</h1>
