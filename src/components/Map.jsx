@@ -13,7 +13,7 @@ const Map = () => {
 			zoom={15}
 			scrollWheelZoom={false}
 			zoomControl={false}
-			className="h-[600px]"
+			className="h-[600px] z-0"
 		>
 			<TileLayer
 				attribution=""
