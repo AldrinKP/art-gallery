@@ -11,7 +11,7 @@ const IntroSection = () => {
 				<img src={heroImage} className="w-full h-full object-cover" />
 			</div>
 
-			<div className="flex lg:flex-row flex-col lg:gap-80 gap-12 absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px] w-full">
+			<div className="flex lg:flex-row flex-col lg:gap-80 gap-12 absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px]">
 				<h1 className="font-heading font-black lg:text-size-heading-xl text-size-heading-l lg:leading-line-heading-xl leading-line-heading-l text-black lg:text-white lg:mix-blend-difference">
 					MODERN <br />
 					ART GALLERY
