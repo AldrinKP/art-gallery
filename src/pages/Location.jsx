@@ -8,24 +8,24 @@ const Location = () => {
 			<Map />
 			<Button type="home" className="absolute top-0 left-32" />
 			<div className="flex place-content-center w-full py-24 bg-almost-black">
-				<div className="flex justify-between gap-56">
-					<h1 className="font-heading font-black text-size-heading-l leading-line-heading-l text-white">
+				<div className="flex flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
+					<h1 className="font-heading font-black lg:text-size-heading-l text-[55px] lg:leading-line-heading-l leading-[50px] text-white">
 						OUR
 						<br />
 						LOCATION
 					</h1>
 					<div className="flex flex-col">
-						<h2 className="font-heading text-size-heading-s leading-line-heading-s text-gold mb-6">
+						<h2 className="font-heading lg:text-size-heading-s text-[32px] lg:leading-line-heading-s leading-[32px] text-gold mb-6">
 							99 KING STREET
 						</h2>
-						<p className="font-body text-size-body-m leading-line-body-m text-white mb-8">
+						<p className="font-body lg:text-size-body-m text-[18px] lg:leading-line-body-m leading-[28px] text-white mb-8">
 							Newport
 							<br />
 							RI 02840
 							<br />
 							United States of America
 						</p>
-						<p className="font-body text-size-body-m leading-line-body-m text-white max-w-[540px]">
+						<p className="font-body lg:text-size-body-m text-[18px] lg:leading-line-body-m leading-[28px] text-white lg:max-w-[540px] max-w-[398px]">
 							Our newly opened gallery is located near the Edward
 							King House on 99 King Street, the Modern Art Gallery
 							is free to all visitors and open seven days a week
