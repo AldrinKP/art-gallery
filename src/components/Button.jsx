@@ -10,7 +10,7 @@ const Button = ({ type, className }) => {
 				to="/location"
 			>
 				<div className="h-full w-[204px] bg-almost-black group-hover:bg-gold flex justify-center items-center">
-					<span className="font-heading font-extrabold text-white tracking-button">
+					<span className="font-heading text-[20px] font-extrabold text-white tracking-button">
 						OUR LOCATION
 					</span>
 				</div>
@@ -39,7 +39,7 @@ const Button = ({ type, className }) => {
 				</svg>
 			</div>
 			<div className="h-full w-[204px] bg-almost-black group-hover:bg-gold flex justify-center items-center">
-				<span className="font-heading font-extrabold text-white tracking-button">
+				<span className="font-heading text-[20px] font-extrabold text-white tracking-button">
 					BACK TO HOME
 				</span>
 			</div>
