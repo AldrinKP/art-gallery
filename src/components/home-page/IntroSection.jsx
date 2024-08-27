@@ -28,7 +28,7 @@ const IntroSection = () => {
 			</div>
 
 			<div className="flex lg:flex-row flex-col lg:gap-80 md:gap-12 gap-8 md:absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px]">
-				<h1 className="font-heading font-black lg:text-size-heading-xl text-size-heading-l lg:leading-line-heading-xl leading-line-heading-l text-black lg:text-white lg:mix-blend-difference">
+				<h1 className="font-heading font-black lg:text-size-heading-xl md:text-size-heading-l text-size-heading-m lg:leading-line-heading-xl md:leading-line-heading-l leading-line-heading-m text-black lg:text-white lg:mix-blend-difference">
 					MODERN <br />
 					ART GALLERY
 				</h1>
