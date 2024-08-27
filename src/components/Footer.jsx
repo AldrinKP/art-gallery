@@ -1,10 +1,10 @@
 const Footer = ({ bgColor }) => {
 	return (
 		<div
-			className={`w-full lg:h-[244px] h-[216px] ${bgColor} flex items-center justify-center`}
+			className={`w-full lg:h-[244px] md:h-[216px] ${bgColor} flex items-center justify-center`}
 		>
-			<div className="flex flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
-				<div className="flex basis-3/4">
+			<div className="flex md:flex-row flex-col flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
+				<div className="flex md:flex-row flex-col basis-3/4">
 					<svg
 						width="111"
 						height="40"
