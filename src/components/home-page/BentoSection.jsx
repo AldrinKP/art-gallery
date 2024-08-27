@@ -12,7 +12,7 @@ const BentoSection = () => {
 	return (
 		<section className="flex h-full max-w-[1110px] mx-auto my-[180px] items-center justify-center lg:p-0 px-8">
 			<div className="md:grid flex flex-col h-full w-full lg:gap-8 gap-[11px] bg-transparent grid-cols-5 grid-rows-3">
-				<div className="col-span-3 row-span-3 md:order-2 min-h-[400px]">
+				<div className="col-span-3 row-span-3 md:order-2 md:min-h-[400px]">
 					<picture>
 						<source
 							media="(min-width: 1024px)"
@@ -29,7 +29,7 @@ const BentoSection = () => {
 						/>
 					</picture>
 				</div>
-				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:mr-32 mr-16 lg:w-[350px] min-w-[225px]">
+				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:mr-32 mr-16 lg:w-[350px] md:min-w-[225px]">
 					<h1 className="font-heading font-black lg:text-size-heading-m text-[50px] lg:leading-line-heading-m leading-[45px] text-almost-black lg:mb-8 mb-6">
 						YOUR DAY AT THE GALLERY
 					</h1>
@@ -39,7 +39,7 @@ const BentoSection = () => {
 						their creative process.
 					</p>
 				</div>
-				<div className="col-span-3 row-span-5 md:order-3 flex justify-center min-h-[720px]">
+				<div className="col-span-3 row-span-5 md:order-3 flex justify-center md:min-h-[720px]">
 					<picture>
 						<source
 							media="(min-width: 1024px)"
@@ -56,7 +56,7 @@ const BentoSection = () => {
 						/>
 					</picture>
 				</div>
-				<div className="col-span-2 row-span-5 md:order-4 flex flex-col justify-center min-h-[313px]">
+				<div className="col-span-2 row-span-5 md:order-4 flex flex-col justify-center md:min-h-[313px]">
 					<div className="basis-[40%]">
 						<picture>
 							<source
