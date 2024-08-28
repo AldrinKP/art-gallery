@@ -29,7 +29,7 @@ const BentoSection = () => {
 						/>
 					</picture>
 				</div>
-				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:mr-32 mr-16 lg:w-[350px] md:min-w-[225px] md:mb-0 mb-8">
+				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:max-w-[350px] md:max-w-[225px] md:mb-0 mb-8">
 					<h1 className="font-heading font-black lg:text-size-heading-m text-[50px] lg:leading-line-heading-m leading-[45px] text-almost-black lg:mb-8 mb-6">
 						YOUR DAY AT THE GALLERY
 					</h1>
