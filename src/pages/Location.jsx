@@ -8,7 +8,7 @@ const Location = () => {
 			<Map />
 			<Button type="home" className="absolute top-0 left-32" />
 			<div className="flex place-content-center w-full py-24 bg-almost-black">
-				<div className="flex flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
+				<div className="flex md:flex-row flex-col flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
 					<h1 className="font-heading font-black lg:text-size-heading-l text-[55px] lg:leading-line-heading-l leading-[50px] text-white">
 						OUR
 						<br />
