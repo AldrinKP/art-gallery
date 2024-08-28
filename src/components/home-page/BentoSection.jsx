@@ -29,7 +29,7 @@ const BentoSection = () => {
 						/>
 					</picture>
 				</div>
-				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:mr-32 mr-16 lg:w-[350px] md:min-w-[225px] md:mb-0 mb-8">
+				<div className="col-span-2 row-span-3 md:order-1 flex flex-col justify-center lg:max-w-[350px] md:max-w-[225px] md:mb-0 mb-8">
 					<h1 className="font-heading font-black lg:text-size-heading-m text-[50px] lg:leading-line-heading-m leading-[45px] text-almost-black lg:mb-8 mb-6">
 						YOUR DAY AT THE GALLERY
 					</h1>
@@ -75,7 +75,7 @@ const BentoSection = () => {
 						</picture>
 					</div>
 					<div className="flex items-center justify-center flex-auto bg-almost-black lg:mt-8 mt-[11px]">
-						<div className="flex flex-col lg:w-[350px] lg:px-0 px-6 md:py-0 py-10">
+						<div className="flex flex-col lg:max-w-[350px] lg:px-0 px-6 md:py-0 py-10">
 							<h1 className="font-heading font-black lg:text-size-heading-m text-[50px] lg:leading-line-heading-m leading-[50px] text-white lg:mb-8 mb-6">
 								COME & BE INSPIRED
 							</h1>
