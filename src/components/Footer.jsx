@@ -34,7 +34,13 @@ const Footer = ({ bgColor }) => {
 				<div className="flex md:flex-row flex-col basis-3/4 md:mb-0 mb-9">
 					{bgColor === 'bg-almost-black' ? whiteLogo : blackLogo}
 
-					<p className="lg:basis-3/4 basis-2/3 font-body text-size-body-s leading-line-body-s text-white lg:max-w-[430px] md:max-w-[281px]">
+					<p
+						className={`lg:basis-3/4 basis-2/3 font-body text-size-body-s leading-line-body-s ${
+							bgColor === 'bg-almost-black'
+								? 'text-white'
+								: 'text-almost-black'
+						} lg:max-w-[430px] md:max-w-[281px]`}
+					>
 						The Modern Art Gallery is free to all visitors and open
 						seven days a week from 8am to 9pm. Find us at 99 King
 						Street, Newport, USA.
