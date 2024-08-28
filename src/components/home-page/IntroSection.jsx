@@ -7,7 +7,7 @@ import Button from '../Button';
 
 const IntroSection = () => {
 	return (
-		<section className="flex md:flex-row flex-col place-items-center relative lg:h-[800px]">
+		<section className="flex md:flex-row flex-col md:place-items-center relative lg:h-[800px]">
 			<div className="lg:block hidden z-0 h-full w-[450px] bg-almost-black"></div>
 			<div className="z-0 lg:w-[540px] md:w-[437px] w-full lg:h-full md:h-[700px] h-[240px] md:mb-0 mb-8">
 				<picture>
@@ -27,7 +27,7 @@ const IntroSection = () => {
 				</picture>
 			</div>
 
-			<div className="flex lg:flex-row flex-col lg:gap-80 md:gap-12 gap-8 md:absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px]">
+			<div className="flex lg:flex-row flex-col lg:gap-80 md:gap-12 gap-8 md:absolute lg:left-[165px] left-[389px] lg:top-[189px] top-[145px] md:px-0 px-8">
 				<h1 className="font-heading font-black lg:text-size-heading-xl md:text-size-heading-l text-size-heading-m lg:leading-line-heading-xl md:leading-line-heading-l leading-line-heading-m text-black lg:text-white lg:mix-blend-difference">
 					MODERN <br />
 					ART GALLERY
