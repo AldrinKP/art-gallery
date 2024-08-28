@@ -29,7 +29,7 @@ const Footer = ({ bgColor }) => {
 
 	return (
 		<div
-			className={`w-full lg:h-[244px] md:h-[216px] ${bgColor} flex items-center justify-center`}
+			className={`w-full lg:min-h-[244px] md:min-h-[216px] ${bgColor} flex items-center justify-center`}
 		>
 			<div className="flex md:flex-row flex-col flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10 md:py-0 py-10">
 				<div className="flex md:flex-row flex-col basis-3/4 md:mb-0 mb-9">
