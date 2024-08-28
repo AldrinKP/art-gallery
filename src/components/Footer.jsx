@@ -59,7 +59,6 @@ const Footer = ({ bgColor }) => {
 		</>
 	);
 
-	const blackSocialIcons = <></>;
 	return (
 		<div
 			className={`w-full lg:h-[244px] md:h-[216px] ${bgColor} flex items-center justify-center`}
