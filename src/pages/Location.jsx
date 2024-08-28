@@ -7,9 +7,9 @@ const Location = () => {
 		<div className="relative z-1">
 			<Map />
 			<Button type="home" className="absolute top-0 left-32" />
-			<div className="flex place-content-center w-full py-24 bg-almost-black">
+			<div className="flex place-content-center w-full md:py-24 py-14 bg-almost-black">
 				<div className="flex md:flex-row flex-col flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
-					<h1 className="font-heading font-black lg:text-size-heading-l text-[55px] lg:leading-line-heading-l leading-[50px] text-white">
+					<h1 className="font-heading font-black lg:text-size-heading-l text-[55px] lg:leading-line-heading-l leading-[50px] text-white md:mb-0 mb-12">
 						OUR
 						<br />
 						LOCATION
