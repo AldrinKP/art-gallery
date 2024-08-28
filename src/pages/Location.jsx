@@ -9,7 +9,7 @@ const Location = () => {
 			<Button type="home" className="absolute top-0 left-32" />
 			<div className="flex place-content-center w-full md:py-24 py-14 bg-almost-black">
 				<div className="flex md:flex-row flex-col flex-grow justify-between lg:max-w-[1110px] lg:px-0 px-10">
-					<h1 className="font-heading font-black lg:text-size-heading-l text-[55px] lg:leading-line-heading-l leading-[50px] text-white md:mb-0 mb-12 md:w-48">
+					<h1 className="font-heading font-black lg:text-size-heading-l md:text-[55px] text-[50px] lg:leading-line-heading-l md:leading-[50px] leading-[45px] text-white md:mb-0 mb-12 md:w-48">
 						OUR LOCATION
 					</h1>
 					<div className="flex flex-col">
