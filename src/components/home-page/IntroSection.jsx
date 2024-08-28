@@ -7,7 +7,7 @@ import Button from '../Button';
 
 const IntroSection = () => {
 	return (
-		<section className="flex md:flex-row flex-col md:place-items-center relative lg:h-[800px]">
+		<section className="flex md:flex-row flex-col md:place-items-center relative lg:h-[800px] lg:mb-[180px] mb-[120px]">
 			<div className="lg:block hidden z-0 h-full w-[450px] bg-almost-black"></div>
 			<div className="z-0 lg:w-[540px] md:w-[437px] w-full lg:h-full md:h-[700px] h-[240px] md:mb-0 mb-8">
 				<picture>

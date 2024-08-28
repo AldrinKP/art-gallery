@@ -10,7 +10,7 @@ import gridImage3mobile from '../../assets/mobile/image-grid-3@2x.jpg';
 
 const BentoSection = () => {
 	return (
-		<section className="flex h-full max-w-[1110px] mx-auto my-[180px] items-center justify-center lg:p-0 px-8">
+		<section className="flex h-full max-w-[1110px] mx-auto lg:mb-[180px] mb-[120px] items-center justify-center lg:p-0 px-8">
 			<div className="md:grid flex flex-col h-full w-full lg:gap-8 gap-[11px] bg-transparent grid-cols-5 grid-rows-3">
 				<div className="col-span-3 row-span-3 md:order-2 md:min-h-[400px] md:mb-0 mb-6">
 					<picture>
