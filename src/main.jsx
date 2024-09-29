@@ -6,9 +6,7 @@ import './index.css';
 
 createRoot(document.getElementById('root')).render(
 	<StrictMode>
-		<BrowserRouter
-			basename={import.meta.env.DEV ? '/' : '/react-vite-gh-pages/'}
-		>
+		<BrowserRouter basename={import.meta.env.DEV ? '/' : '/art-gallery'}>
 			<App />
 		</BrowserRouter>
 	</StrictMode>
